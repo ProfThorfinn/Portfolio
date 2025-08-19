@@ -1,0 +1,40 @@
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+  color: white;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-text h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.hero-img img {
+  max-width: 300px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,41 @@
+.footer {
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+  color: #fff;
+  padding: 50px 20px;
+  margin-top: 50px;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.footer-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #bbb;
+}
+
+.contact-info p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.contact-info a {
+  color: #0d6efd;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact-info a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #888;
+}
